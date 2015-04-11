@@ -5,7 +5,7 @@
  */
 package test;
 
-import com.ws.project.dencrypt.Encrypt;
+import com.ws.project.dencrypt.DEncrypt;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class EncryptTest {
     public static void main(String[] args) {
         String filename = "F:\\VIDIO\\temp\\";
-        Encrypt en = new Encrypt();
+        DEncrypt en = new DEncrypt();
         try {
             en.dencrypt(filename);
         } catch (IOException ex) {

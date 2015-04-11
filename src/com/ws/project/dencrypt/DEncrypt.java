@@ -14,7 +14,7 @@ import java.io.RandomAccessFile;
  *
  * @author Eric_Bingbing
  */
-public class Encrypt {
+public class DEncrypt {
     private static byte key = (byte)0x12;
 
     static byte getKey() {
@@ -22,7 +22,7 @@ public class Encrypt {
     }
 
     public static void setKey(byte key) {
-        Encrypt.key = key;
+        DEncrypt.key = key;
     }
     
     public void dencrypt(String filename) throws IOException {
