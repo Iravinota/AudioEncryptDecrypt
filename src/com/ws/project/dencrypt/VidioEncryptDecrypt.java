@@ -24,6 +24,7 @@ public class VidioEncryptDecrypt {
         DEncrypt dencrypt = new DEncrypt();
         try {
             dencrypt.dencrypt(filename);
+            System.out.println("File encripted or decripted success");
         } catch (IOException ex) {
             Logger.getLogger(VidioEncryptDecrypt.class.getName()).log(Level.SEVERE, null, ex);
         }
