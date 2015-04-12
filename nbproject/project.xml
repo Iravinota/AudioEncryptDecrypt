@@ -9,6 +9,7 @@
             </source-roots>
             <test-roots>
                 <root id="test.src.dir"/>
+                <root id="test.software.dir" name="可执行包"/>
             </test-roots>
         </data>
     </configuration>
